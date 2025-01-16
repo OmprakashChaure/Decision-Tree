@@ -1,2 +1,19 @@
 # Decision-Tree
 Fraud detection using the Decision Tree algorithm to identify suspicious activities in industries like banking, e-commerce, and insurance, minimizing losses with accurate classification.
+
+
+To identify online payment fraud with machine learning, we need to train a machine learning model for classifying fraudulent and non-fraudulent payments. For this, we need a dataset containing information about online payment fraud, so that we can understand what type of transactions lead to fraud.
+
+
+Below are all the columns from the dataset we are using here:
+
+ step: represents a unit of time where 1 step equals 1 hour
+ type: type of online transaction
+ amount: the amount of the transaction
+ nameOrig: customer starting the transaction
+ oldbalanceOrg: balance before the transaction
+ newbalanceOrig: balance after the transaction
+ nameDest: recipient of the transaction
+ oldbalanceDest: initial balance of recipient before the transaction
+ newbalanceDest: the new balance of recipient after the transaction
+ isFraud: fraud transaction
